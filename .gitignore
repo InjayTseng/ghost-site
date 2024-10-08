@@ -1,0 +1,5 @@
+echo "node_modules/" > .gitignore
+echo "content/data/" >> .gitignore
+echo "content/images/" >> .gitignore
+echo "content/logs/" >> .gitignore
+echo "content/adapters/" >> .gitignore
