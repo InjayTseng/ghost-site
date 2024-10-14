@@ -11,7 +11,16 @@
     }
   },
   "mail": {
-    "transport": "Direct"
+    "transport": "SMTP",
+    "options": {
+      "service": "Mailgun",
+      "host": "smtp.mailgun.org",
+      "port": 587,
+      "secureConnection": true,
+      "auth": {
+        "user": "postmaster@sandbox967a84a3980d4d23a5d0efcc0a0cab6b.mailgun.org",
+        "pass": "27ddfa19e22c37e1a924db867a1a15d8-5dcb5e36-e0f65adc"
+      }
   },
   "logging": {
     "transports": [
